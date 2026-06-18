@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Laminar — Postpartum hypertension & recovery monitoring</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/site.css" />
+<link rel="icon" href="assets/laminar-mark.png" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a class="brand" href="#top">
+      <img src="assets/laminar-mark.png" alt="Laminar logo" />
+      Laminar
+    </a>
+    <nav class="nav__links">
+      <a href="#problem">The gap</a>
+      <a href="#solution">What we track</a>
+      <a href="#how">How it works</a>
+      <a href="#who">Who it's for</a>
+      <a href="#team">Team</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="nav__cta">
+      <a class="btn" href="Demo.html">Try the demo <span class="arr">→</span></a>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top">
+  <svg class="streamlines" viewBox="0 0 1440 700" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M-50,140 C300,90 520,200 760,170 1060,132 1240,205 1500,160" />
+    <path d="M-50,240 C300,195 520,300 760,272 1060,238 1240,305 1500,262" />
+    <path d="M-50,360 C300,318 520,418 760,392 1060,360 1240,422 1500,382" />
+    <path d="M-50,480 C300,440 520,536 760,512 1060,482 1240,540 1500,502" />
+    <path d="M-50,600 C300,562 520,652 760,630 1060,602 1240,656 1500,620" />
+  </svg>
+  <div class="wrap hero__pad">
+    <div class="hero__grid">
+      <div>
+        <span class="eyebrow on-dark">Postpartum hypertension &amp; recovery monitoring</span>
+        <h1 style="margin-top:22px;">The weeks after birth shouldn't be the <em>riskiest.</em></h1>
+        <p class="hero__lede">Laminar watches over postpartum blood pressure, symptoms, and recovery at home — so warning signs are caught early and care teams can act sooner.</p>
+        <div class="hero__cta">
+          <a class="btn btn--white btn--lg" href="Demo.html">Try the demo <span class="arr">→</span></a>
+          <a class="btn btn--lg" style="--bg:rgba(255,255,255,.14);--fg:#fff;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.4);" href="#how">See how it works</a>
+        </div>
+        <div class="hero__trust">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg>
+          Built around real clinical workflows &amp; postpartum guidelines
+        </div>
+      </div>
+
+      <!-- hero product mock -->
+      <div class="phone" aria-hidden="true">
+        <div class="phone__screen">
+          <div class="mock-head">
+            <div>
+              <div class="mock-greet">Good morning, Maya</div>
+              <div class="mock-sub">Day 6 · Today's check-in</div>
+            </div>
+            <div class="mock-av">M</div>
+          </div>
+          <div class="bp-card">
+            <div class="lab">Blood pressure</div>
+            <div class="val">128<span>/82 mmHg</span></div>
+            <div style="margin-top:12px;"><span class="pill watch dot">Monitor closely</span></div>
+          </div>
+          <div style="padding:2px 14px 4px;font-size:.78rem;font-weight:700;color:var(--ink-500);">How are you feeling?</div>
+          <div class="sym-row">
+            <span class="sym-chip sel">Headache</span>
+            <span class="sym-chip">Swelling</span>
+            <span class="sym-chip sel">Blurred vision</span>
+            <span class="sym-chip">Chest pain</span>
+            <span class="sym-chip">Short of breath</span>
+          </div>
+          <div style="margin:2px 14px 16px;background:var(--alert-bg);border-radius:14px;padding:13px 15px;display:flex;gap:11px;align-items:flex-start;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--alert)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:1px;"><path d="M10.3 3.8 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.8a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+            <div style="font-size:.82rem;color:var(--alert);font-weight:600;line-height:1.4;">Headache + vision changes with elevated BP. We've asked your care team to follow up today.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STAT BAND ===================== -->
+<section class="band">
+  <div class="wrap">
+    <span class="eyebrow on-dark" style="margin-bottom:42px;display:inline-flex;">Why this window matters</span>
+    <div class="band__grid">
+      <div class="stat reveal">
+        <div class="n">1 in 3</div>
+        <div class="t">pregnancy-related deaths happen between one week and one year after birth — mostly at home.</div>
+      </div>
+      <div class="stat reveal">
+        <div class="n">Leading</div>
+        <div class="t">cause of those late complications includes hypertensive disorders like postpartum preeclampsia.</div>
+      </div>
+      <div class="stat reveal">
+        <div class="n">Often missed</div>
+        <div class="t">because the most fragile weeks of recovery happen after discharge, with little day-to-day monitoring.</div>
+      </div>
+    </div>
+    <p class="band__note">Framing reflects widely cited maternal-health public-health data. Laminar is a monitoring aid, not a diagnostic device.</p>
+  </div>
+</section>
+
+<!-- ===================== PROBLEM ===================== -->
+<section class="sec sec--cream" id="problem">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The gap after discharge</span>
+      <h2>You go home with a newborn — and almost no monitoring.</h2>
+      <p>Serious postpartum complications often develop quietly at home. New mothers are overwhelmed, recovering physically, and sleep-deprived. Few people can tell, in the moment, which symptoms are normal and which need urgent attention.</p>
+    </div>
+    <div class="prob-grid">
+      <div class="prob reveal">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>"Is this normal?"</h3>
+        <p>A headache, swelling, or blurred vision can be ordinary recovery — or an early warning of postpartum hypertension. It's hard to know which, alone at 3am.</p>
+      </div>
+      <div class="prob reveal">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 6 4-14 2 8h6"/></svg></div>
+        <h3>Tracking falls apart</h3>
+        <p>Blood-pressure checks at home are easy to forget when you're exhausted and caring for a newborn. Inconsistent readings hide the trend that actually matters.</p>
+      </div>
+      <div class="prob reveal">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>The follow-up is too late</h3>
+        <p>The standard postpartum visit can be weeks away. By then a dangerous pattern may already have escalated — or been missed entirely.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SOLUTION ===================== -->
+<section class="sec" id="solution">
+  <div class="wrap split">
+    <div class="reveal">
+      <span class="eyebrow">What Laminar tracks</span>
+      <h2 style="font-size:clamp(2.1rem,4.4vw,3.4rem);margin-top:20px;">One simple daily check-in. Every signal that matters.</h2>
+      <p style="color:var(--ink-500);font-size:1.12rem;margin-top:20px;">Laminar turns scattered, easy-to-miss symptoms into a consistent recovery record — clear for patients and actionable for care teams.</p>
+      <div style="margin-top:30px;display:flex;gap:14px;flex-wrap:wrap;">
+        <a class="btn" href="Demo.html">Try the demo <span class="arr">→</span></a>
+        <a class="btn btn--ghost" href="#how">How it works</a>
+      </div>
+    </div>
+    <div class="signal-grid reveal">
+      <div class="signal"><span class="s-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 6 4-14 2 8h6"/></svg></span>Blood pressure</div>
+      <div class="signal"><span class="s-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.5-1.6 3-3.6 3-6a4 4 0 0 0-7-2.7A4 4 0 0 0 8 8c0 2.4 1.5 4.4 3 6l5 5z"/></svg></span>Headaches</div>
+      <div class="signal"><span class="s-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/></svg></span>Vision changes</div>
+      <div class="signal"><span class="s-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12c0-3 2-5 6-5s6 2 6 5-2 6-6 6-6-3-6-6z"/><path d="M12 7V3"/></svg></span>Swelling</div>
+      <div class="signal"><span class="s-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-4-2.5-7-6-7-10a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 4-3 7.5-7 10z"/></svg></span>Pain levels</div>
+      <div class="signal"><span class="s-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a8 8 0 1 1 16 0"/><path d="M12 14v6"/><path d="M9 18h6"/></svg></span>Shortness of breath</div>
+      <div class="signal"><span class="s-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h6M7 13h10M7 17h4"/></svg></span>Medication adherence</div>
+      <div class="signal"><span class="s-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7 9 18l-5-5"/></svg></span>Recovery status</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section class="sec sec--cream" id="how">
+  <div class="wrap">
+    <div class="sec-head reveal" style="margin-inline:auto;text-align:center;">
+      <span class="eyebrow" style="justify-content:center;">How it works</span>
+      <h2>From a daily check-in to a clear next step.</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step__num">1</div>
+        <h3>Daily check-in</h3>
+        <p>Each day Laminar sends a short, friendly prompt — no app fatigue, no clinical jargon.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step__num">2</div>
+        <h3>Enter readings</h3>
+        <p>The patient logs blood pressure and taps how she's feeling. It takes under a minute.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step__num">3</div>
+        <h3>Patterns detected</h3>
+        <p>Laminar reads each entry against postpartum thresholds and trends — not just single numbers.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step__num">4</div>
+        <h3>Care team reviews</h3>
+        <p>Concerning responses are flagged on a dashboard so clinicians see who needs attention first.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step__num">5</div>
+        <h3>Clear guidance</h3>
+        <p>The patient gets a plain-language next step: keep monitoring, or contact your care team now.</p>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:56px;">
+      <a class="btn btn--lg" href="Demo.html">Walk through it yourself <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHO IT'S FOR ===================== -->
+<section class="sec" id="who">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Who it's for</span>
+      <h2>Two sides of the same recovery.</h2>
+      <p>Laminar is built for the people living through postpartum recovery — and the teams responsible for keeping them safe.</p>
+    </div>
+    <div class="who-grid">
+      <div class="who who--moms reveal">
+        <h3>For new mothers</h3>
+        <p>Confidence at home — knowing what's normal, what isn't, and that someone is watching with you.</p>
+        <ul>
+          <li>Postpartum mothers</li>
+          <li>High-risk pregnancies</li>
+          <li>Preeclampsia history</li>
+          <li>Recovering at home</li>
+        </ul>
+      </div>
+      <div class="who who--teams reveal">
+        <h3>For care teams</h3>
+        <p>A clear view of who's recovering well and who needs a call today — without chasing every patient.</p>
+        <ul>
+          <li>OB-GYN clinics</li>
+          <li>Family doctors</li>
+          <li>Nurses</li>
+          <li>Midwives</li>
+          <li>Hospital discharge teams</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY IT MATTERS ===================== -->
+<section class="sec sec--cream">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Why it matters</span>
+      <h2>Catch the signal before it becomes an emergency.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why reveal">
+        <div class="big">↓</div>
+        <div><h3>Fewer missed warning signs</h3><p>Symptoms like vision changes or a spiking reading are surfaced the day they appear — not at a visit weeks later.</p></div>
+      </div>
+      <div class="why reveal">
+        <div class="big">↑</div>
+        <div><h3>Better follow-up</h3><p>Care teams reach the right patients sooner, with context already in hand instead of starting from zero.</p></div>
+      </div>
+      <div class="why reveal">
+        <div class="big">✓</div>
+        <div><h3>Higher BP-tracking adherence</h3><p>Gentle daily prompts make consistent home monitoring the easy default, even on the hardest days.</p></div>
+      </div>
+      <div class="why reveal">
+        <div class="big">◎</div>
+        <div><h3>Triage that's clearer</h3><p>Flagged responses help teams identify who may need attention first across an entire postpartum panel.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="sec" id="about">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <span class="eyebrow">About Laminar</span>
+      <h2 style="font-size:clamp(2.1rem,4.4vw,3.4rem);margin-top:20px;">A startup built around the postpartum gap.</h2>
+      <p style="color:var(--ink-500);font-size:1.12rem;margin-top:22px;">Laminar is a clinically informed health-tech startup focused on one thing: the fragile window between hospital discharge and full postpartum recovery.</p>
+      <p style="color:var(--ink-500);font-size:1.12rem;margin-top:16px;">We're motivated by how often serious complications develop quietly at home — and by how much earlier they could be caught with simple, consistent monitoring. We design around patient-centered communication and the real workflows care teams already use, so monitoring fits into recovery instead of adding to it.</p>
+      <div class="about-cards" style="margin-top:30px;">
+        <div class="about-card"><h4>Clinically informed</h4><p>Grounded in postpartum hypertension guidance and real discharge workflows.</p></div>
+        <div class="about-card"><h4>Patient-centered</h4><p>Plain language, gentle prompts, and guidance a sleep-deprived parent can act on.</p></div>
+      </div>
+    </div>
+    <div class="slot reveal" style="min-height:460px;">
+      <div class="slot__tag">[ photo — mother &amp; newborn at home / care team ]</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== LEADERSHIP ===================== -->
+<section class="sec sec--cream" id="team">
+  <div class="wrap">
+    <div class="sec-head reveal" style="margin-inline:auto;text-align:center;">
+      <span class="eyebrow" style="justify-content:center;">Leadership</span>
+      <h2>The team behind Laminar.</h2>
+      <p style="margin-inline:auto;">Co-founders building toward safer postpartum recovery.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card reveal">
+        <div class="avatar">AK</div>
+        <h3>Ammar Kashif</h3>
+        <div class="role">Co-Founder &amp; CEO</div>
+      </div>
+      <div class="team-card reveal">
+        <div class="avatar">MZ</div>
+        <h3>Maaz Zeeshan</h3>
+        <div class="role">Co-Founder &amp; CEO</div>
+      </div>
+      <div class="team-card reveal">
+        <div class="avatar">AP</div>
+        <h3>Ahmed Papay</h3>
+        <div class="role">Co-Founder &amp; CEO</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DEMO CTA ===================== -->
+<section class="sec" style="padding-top:0;">
+  <div class="wrap">
+    <div class="cta reveal">
+      <svg class="streamlines" viewBox="0 0 1200 500" preserveAspectRatio="none" aria-hidden="true" style="opacity:.35;">
+        <path d="M-50,120 C260,80 460,170 660,150 900,126 1060,180 1260,140"/>
+        <path d="M-50,250 C260,210 460,300 660,280 900,256 1060,310 1260,270"/>
+        <path d="M-50,380 C260,340 460,430 660,410 900,386 1060,440 1260,400"/>
+      </svg>
+      <div style="position:relative;z-index:1;">
+        <span class="eyebrow on-dark" style="justify-content:center;margin-bottom:22px;">Optional demo experience</span>
+        <h2>See exactly how a check-in becomes a clear next step.</h2>
+        <p>Enter a blood-pressure reading and a few symptoms. Laminar shows the patient a plain-language risk result — and the care team a live triage view.</p>
+        <div class="cta__row">
+          <a class="btn btn--white btn--lg" href="Demo.html">Try the demo of our product <span class="arr">→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <div>
+        <div class="foot__brand"><img src="assets/laminar-mark-white.png" alt="" />Laminar</div>
+        <p class="fdesc">Postpartum hypertension &amp; recovery monitoring — closing the gap between hospital discharge and full recovery.</p>
+        <div style="margin-top:22px;"><a class="btn btn--white" href="Demo.html">Try the demo <span class="arr">→</span></a></div>
+      </div>
+      <div>
+        <h5>Product</h5>
+        <ul>
+          <li><a href="#solution">What we track</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="Demo.html">Demo</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Who it's for</h5>
+        <ul>
+          <li><a href="#who">New mothers</a></li>
+          <li><a href="#who">Care teams</a></li>
+          <li><a href="#problem">The care gap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Leadership</a></li>
+          <li><a href="mailto:hello@laminar.health">Contact</a></li>
+          <li><a href="Demo.html">Request a pilot</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot__bot">
+      <span>© 2026 Laminar Health, Inc.</span>
+      <span class="disc">For demonstration only. Laminar is a monitoring aid and does not provide diagnosis or emergency care. In an emergency, call your local emergency number.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // nav shadow on scroll
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 12);
+  onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+
+  // reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+  document.querySelectorAll('.reveal').forEach((el, i) => {
+    el.style.transitionDelay = (Math.min(i % 5, 4) * 60) + 'ms';
+    io.observe(el);
+  });
+  // safety net: never leave content hidden
+  setTimeout(() => document.querySelectorAll('.reveal:not(.in)').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add('in');
+  }), 1200);
+</script>
+</body>
+</html>

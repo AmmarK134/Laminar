@@ -1,0 +1,7 @@
+# Claude Code config — never commit this
+.claude/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
