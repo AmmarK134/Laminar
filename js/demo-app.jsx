@@ -121,10 +121,10 @@ function PatientApp({ onSubmit }) {
         <div className="screen">
           <div className="scr-top">
             <div>
-              <div className="scr-greet">Good morning, Maya</div>
+              <div className="scr-greet">Good morning</div>
               <div className="scr-sub">Day 6 · Today's check-in</div>
             </div>
-            <div className="scr-av">M</div>
+            <div className="scr-av">♥</div>
           </div>
 
           {step < 3 && (
