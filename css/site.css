@@ -256,7 +256,7 @@ section { position: relative; }
 .slot__tag { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size:.78rem; color: var(--coral-700); background: rgba(255,255,255,.7); padding:7px 13px; border-radius: 100px; text-align:center; }
 
 /* leadership / team */
-.team-grid { display:grid; grid-template-columns: repeat(3,1fr); gap: 22px; margin-top: 56px; }
+.team-grid { display:grid; grid-template-columns: repeat(4,1fr); gap: 22px; margin-top: 56px; }
 .team-card {
   background: var(--paper); border:1px solid var(--line); border-radius: var(--radius-lg);
   padding: 42px 32px; text-align:center; transition: transform .2s, box-shadow .2s;
@@ -299,7 +299,7 @@ section { position: relative; }
   .hero__grid, .split, .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .band__grid, .prob-grid, .why-grid { grid-template-columns: 1fr; gap: 24px; }
   .who-grid { grid-template-columns: 1fr; }
-  .team-grid { grid-template-columns: 1fr; gap: 18px; }
+  .team-grid { grid-template-columns: repeat(2,1fr); gap: 18px; }
   .steps { grid-template-columns: 1fr 1fr; gap: 32px 16px; }
   .step::after { display:none; }
   .nav__links { display:none; }
